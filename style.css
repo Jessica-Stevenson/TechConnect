@@ -1,0 +1,206 @@
+@charset "utf-8";
+/*CSS Document*/
+
+html,body
+{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	Font-size:15px;
+	background-color:#fffbf2;
+}
+
+#container
+{
+	width:1003px;
+	background-color:#00FF96;
+	position:relative;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header
+{
+	position:relative;
+	width:973px;
+	height:100px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-color:#454545;
+	text-align:right;
+	padding-right:30px;
+}
+
+#nav
+{
+	clear: both;
+	width:980px;
+	background-color:#00FF96;
+	height:35px;
+	font-size: 18px;
+	font-family: arial;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content
+{
+	width:1003px;
+	background-color:#6c5757;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footer
+{
+	clear:both;
+	width:983px;
+	text-align:center;
+	padding:10px;
+	background-color:#454545;
+	color: #00FF96;
+}
+
+
+.wrap
+{
+	float:left;
+	margin-right:10px;
+}
+
+/*Navigation
+-------------------------------------*/
+
+#nav a {
+	color: #000000;
+	text-decoration:none;
+}
+
+#nav a:hover{
+	color:black;
+}
+
+
+#nav ul
+{
+	padding:0;
+
+}
+
+#nav ul li{
+	float:left;
+	margin-right: .5em;
+	list-style:none;
+}
+
+#nav ul li a{
+	padding: .5em 1em;
+	background:#00FF96;
+	border-radius: 15px;
+}
+
+#nav ul li a:hover{
+	background:#454545;
+	color:#00FF96;
+}
+
+.products
+{
+	padding:10px;
+	color: #00FF96;
+	margin:auto;	
+	font-family:Ebrima;
+	text-align: center;
+}
+
+table{
+	border-spacing: 20px;
+
+}
+
+td{
+	border:5px solid #00FF96;
+	height: 100px;
+	width: 400px;
+	padding:15px;
+}
+
+.button {
+	background-color: #454545;
+	border: 5px solid #00FF96;
+	color: #00FF96;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+  .button:hover{
+	background-color: #00FF96;
+	border: 5px solid #00FF96;
+	color: #454545;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+  .contact_container
+{
+	height:100vh;
+	display:contents;
+	width:10px;
+}
+
+.contact
+{
+	display:content;
+	align-items:start;
+
+}
+
+.contact_input
+{
+	font-family:Ebrima;
+	width:470px;
+	height:50px;
+	padding-left:15px;
+	font-weight:500;
+}
+
+.contact textarea
+{
+	height:140px;
+	width:470px;
+	padding-top:15px;
+}
+
+textarea{
+	resize:none
+}
+
+.contact button
+{
+	background-color: #454545;
+	border: 5px solid #00FF96;
+	color: #00FF96;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.contact_left button:hover
+{
+	background-color: #00FF96;
+	border: 5px solid #00FF96;
+	color: #454545;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
